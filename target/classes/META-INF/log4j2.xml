@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xmlns="https://logging.apache.org/xml/ns"
+               xsi:schemaLocation="
+                       https://logging.apache.org/xml/ns
+                       https://logging.apache.org/xml/ns/log4j-config-2.xsd">
+
+    <Appenders>
+        <File name="FILE" fileName="app.log" append="true">
+            <PatternLayout pattern="%d{dd.MM.yyyy HH:mm:ss} [%t] %-5p
+            %c.%M() - %m%n" />
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="com.sorkin.ssp10" level="DEBUG"/>
+        <Root level="DEBUG">
+            <AppenderRef ref="FILE"/>
+        </Root>
+    </Loggers>
+
+</Configuration>
