@@ -3,6 +3,7 @@ com\sorkin\ssp10\servlets\AuthServlet.class
 com\sorkin\ssp10\myclasses\User.class
 com\sorkin\ssp10\myclasses\LombardItem.class
 com\sorkin\ssp10\myclasses\DbConnection.class
+com\sorkin\ssp10\myclasses\DbConnectionExample.class
 com\sorkin\ssp10\servlets\LogoutServlet.class
 com\sorkin\ssp10\filters\LogFilter.class
 com\sorkin\ssp10\servlets\LombardServlet.class

@@ -7,7 +7,7 @@
                status="INFO">
 
     <Appenders>
-        <File name="FILE" fileName="app.log" append="true">
+        <File name="FILE" fileName="logs/app.log" append="true">
             <PatternLayout pattern="%d{dd.MM.yyyy HH:mm:ss} [%t] %-5p
             %c.%M() - %m%n" />
         </File>
